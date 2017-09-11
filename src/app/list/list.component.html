@@ -1,0 +1,83 @@
+<!-- <div class="jumbotron jumbotron-fluid logo"> -->
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+  <div class="colour">
+       <h1 class="display-4">Select Your News Channel</h1>
+   </div>
+   </div>
+   </div>
+   </div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<div class="images">
+ <img src="../assets/news.jpg" class="img-fluid">
+ <!-- <img src="../assets/espn.png">
+ <img src="../assets/ars.png">
+ <img src="../assets/bbc.png">
+ <img src="../assets/buzzfeed.png">  -->
+</div>
+</div>
+</div>   
+</div>
+<div class="custom">
+<div class="dropdown">
+    <form class="form-inline my-2 my-lg-0">
+       <div class="styled-select">
+       <select #selectedname>
+          <option *ngFor="let data of dataa" [value]="data.id">
+            {{data.name}}
+          </option>
+        </select>
+        </div>
+      </form>
+      </div>
+      <div class="search">
+      <div class="button">
+       <button (click)="searchData(selectedname.value)" class="btn btn-danger btn-lg" type="submit">Search</button>
+       </div>    
+      </div>   
+</div>
+
+
+<app-channel [names]="data"></app-channel>
+
+<div class="Footer text-white">
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-md-12 col-lg-4">
+                <ul>
+                <li><h3>Policies</h3></li>
+                <li>CONTACT PRIVACY POLICY</li> 
+                <li>LEGAL DISCLAIMER</li> 
+                <li>COMPLAINT</li> 
+                <li>OUR TEAM</li>
+                <li>INVESTOR INFO</li>
+                </ul> 
+                </div>
+
+                <div class="col-md-12 col-lg-4">
+                <ul>
+                <li><h3>News</h3></li>
+                <li>Sports News</li> 
+                <li>Business News</li> 
+                <li>Political News</li> 
+                <li>International News</li>
+                <li>Bollywood News</li>
+                </ul>
+                </div>
+                
+                <div class="col-md-12 col-lg-4">         
+                <ul>
+                    <li><h3>Connect With Us</h3></li>
+                    <li> <a href="https://www.facebook.com"><img src="../assets/facebook.png"></a>
+                    <a href="https://www.youtube.com"><img src="../assets/youtube.png"></a>
+                    <a href="https://twitter.com/login"><img src="../assets/twitter.png"></a>
+                    <a href="https://www.snapchat.com/l/en-gb/"><img src="../assets/snapchat.png"></a></li>
+                </ul>
+                </div>
+
+                </div>
+                </div>
+                </div>

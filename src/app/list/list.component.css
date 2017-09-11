@@ -1,0 +1,68 @@
+.logo{
+  margin-top: -50px;
+  height: 39rem;
+  /*background-image: url("../../images/News-Image.jpg");*/
+  background-size: cover;
+}
+
+.lead{
+  color: black;
+}
+
+.mania {
+  color: white ;
+  font-style: italic;
+}
+
+.colour{
+    color: black;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.dropdown{
+  margin-left:42%;
+}
+
+.button{
+    margin-top:2%;
+}
+
+.search{
+    margin-left: 44%;
+    margin-top:1%;
+
+}
+
+.custom{
+      margin-top:1%;  
+}
+
+.images{
+  padding-left:10%;
+  padding-left:30%; 
+}
+
+
+.styled-select select {
+  background-color: #F1F1F1;
+   width: 12rem;
+   font-size: 1rem;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 2rem;
+   /*margin-top: 0.5rem;*/
+   }
+
+.Footer
+{
+    margin-top: 4.8%;
+    background-color: #252222;
+}
+
+.Footer ul li
+{
+  list-style: none;
+}
+  
